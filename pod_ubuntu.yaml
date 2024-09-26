@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tshoot-tmp
+spec:
+  containers:
+    - name: ubuntu
+      image: freitasleoalves/ubuntu
+      command:
+        - sleep
+        - infinity
